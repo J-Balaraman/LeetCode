@@ -6,4 +6,3 @@ class Solution:
                 return maxProfit
             elif prices[(x + 1)] > prices[x]:
                 maxProfit = ((prices[(x + 1)] - prices[x]) + maxProfit)
-                print(maxProfit)
