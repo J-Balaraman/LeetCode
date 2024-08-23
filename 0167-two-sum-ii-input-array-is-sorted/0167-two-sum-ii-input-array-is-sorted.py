@@ -1,6 +1,5 @@
 class Solution:
     def twoSum(self, numbers: List[int], target: int) -> List[int]:
-        copy = numbers.copy()
         t1 = 0
         t2 = -1
         for x in numbers:
